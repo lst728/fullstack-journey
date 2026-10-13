@@ -14,14 +14,14 @@ body {
   margin: 0;
   font-family: Arial, "Microsoft YaHei", sans-serif;
   background: #f5f5f5;
-  color: #8f1052;
+  color: #0d0d0d;
   line-height: 1.6;
 }
 
 /* 页头：深色背景，白色文字，居中，内边距 */
 header {
-  background: #bdb9b9;
-  color: white;
+  background: rgb(195, 215, 223);
+  color: rgb(238, 222, 204);
   padding: 20px;
   text-align: center;
 }
@@ -80,7 +80,16 @@ a:hover {
 /* 页脚：文字居中，内边距，灰色小字 */
 footer {
   text-align: center;
-  padding: 20px;
+  padding: 5px;
   color: #888;
   font-size: 14px;
+  margin:10px 0;    /* 上下留一点点外边距 */
+}
+.demo-box {
+  width: 300px;
+  height:120px;
+  background:#e086b8;
+  padding:20px;
+  border:2px solid rgb(24, 145, 101);
+  margin:30px auto;
 }

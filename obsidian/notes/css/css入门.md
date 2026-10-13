@@ -135,9 +135,9 @@ body {
 margin  外边距
 border  边框
 padding 内边距
-content 内容
+content 内容（width宽，height高）
 ```
-
+box-sizing: content-box（内容盒子）
 ```css
 .box {
   width: 200px;
@@ -148,9 +148,10 @@ content 内容
 
 ```
 默认情况下，`width` 只算内容区，实际占宽 = `200 + 10*2 + 2*2 = 224px`。
+margin外边距一般不计算在内
 
 推荐加上：
-
+box-sizing: border-box（边框盒子）
 ```css
 * {
   box-sizing: border-box;
@@ -158,3 +159,12 @@ content 内容
 ```
 
 这样 `width` 就包含 `padding` 和 `border`，更好算。
+width 就是整个盒子的总宽度，包含 content + padding + border。
+#### 通俗比喻
+- `content‑box`：买一个 200px 的纸箱，你往内壁垫泡沫（padding）、钉木板边框（border），**纸箱整体会变大向外扩张**。
+- `border‑box`：固定纸箱外部总大小 200px，你垫泡沫、加边框，只能**挤压箱子里面存放物品的空间**，箱子外壳大小不变。
+边距塌陷：相邻盒子，边距矛盾时取大的
+#### 学块级元素、行内元素、inline-block 的区别。
+- block：霸道，自己占一整行，可以随便设宽高。
+- inline：温顺，跟文字挤一行，不能设置宽高。
+- inline‑block：折中，挤一行，又能设置宽高
