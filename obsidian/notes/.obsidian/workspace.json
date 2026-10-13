@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FSE/git知识.md",
-                "mode": "preview",
+                "file": "css/css入门.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "git知识"
+              "title": "css入门"
             }
           }
         ]
@@ -188,10 +188,16 @@
       "bases:新建数据库": false
     }
   },
-  "active": "1c984269360cc990",
+  "active": "edf3c230dccdbcc5",
   "lastOpenFiles": [
+    "javaScript",
+    "css/css入门.md",
+    "未命名.md",
+    "HTML/语法改正.md",
     "HTML/常用标签.md",
+    "css",
     "HTML/HTML入门知识.md",
+    "FSE/git知识.md",
     "FSE/full-stuck.md",
     "HTML",
     "FSE/Linux学习.md",

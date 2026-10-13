@@ -1,34 +1,91 @@
 <!DOCTYPE html>
-<html lang="zh-CN"
-<head>  
-    <meta charset="UTF_8">
-    <!-- charset字符集 -->
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta author="小鲤鱼">
-    <title>fullstuck_html练习</title>
+    <meta name="author" content="小鲤鱼">
+    <title>FullStack HTML 练习</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1> html学习</h1>
+    <header>
+        <h1>HTML 学习</h1>
+    </header>
 
-    <p> 今天学习<b> html骨架，标签，属性，链接，标题</b>重点是<em>  链接，图片，列表</em></p>
+    <main>
+        <section>
+            <h2>学习记录</h2>
+            <ul>
+                <li>
+                    <p>10.12 学习：<strong>HTML 骨架，标签，属性，链接，标题</strong>，重点是<em>链接，图片，列表</em></p>
+                </li>
+                <li>
+                    <p>10.13 学习：<strong>表单、语义化标签、CSS 入门</strong></p>
+                </li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <section>
+            <h2>学习资源</h2>
+            <ul>
+                <li>
+                    <a href="https://developer.mozilla.org/zh-CN/docs/Learn_web_development/Core/Structuring_content/Basic_HTML_syntax">MDN HTML 基础</a>
+                </li>
+                <li>
+                    <a href="https://www.runoob.com/html/html-attributes.html">菜鸟 HTML 教程</a>
+                </li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <section>
+            <h2>图片</h2>
+            <img class="picture" src="微信图片_20241209212827.jpg" alt="风景" width="300">
+        </section>
+
+        <section>
+            <h2>励志格言</h2>
+            <p>里面是块级标签</p>
+            <p><b>我不会停留于此，继续加油！</b></p>
+            <p><span>这是行级，不换行</span></p>
+        </section>
+
+        <hr>
+
+        <section>
+            <h2>联系我</h2>
+            <form action="#" method="post">
+                <p>
+                    <label for="name">姓名：</label>
+                    <input type="text" id="name" name="name" placeholder="请输入姓名" required>
+                </p>
+                <p>
+                    <label for="email">邮箱：</label>
+                    <input type="email" id="email" name="email" placeholder="请输入邮箱" required>
+                </p>
+                <p>
+                    <label for="message">留言：</label>
+                    <textarea id="message" name="message" rows="4" cols="30" placeholder="请输入留言" required></textarea>
+                </p>
+                <p>
+                    <button type="submit">提交</button>
+                </p>
+            </form>
+        </section>
+
+        <hr>
+
+       <section>
+
+        <footer>
+        <p>&copy; 2026 小鲤鱼. 保留所有权利。</p>
+        </footer>
+
+       </section>
+
     
-    <hr>
-
-    <h2> 学习资源</h2>
-    <ul>
-        <li><a href="https://developer.mozilla.org/zh-CN/docs/Learn_web_development/Core/Structuring_content/Basic_HTML_syntax">MND HTML基础</HTML></a></li>
-        <li><a href="https://www.runoob.com/html/html-attributes.html">菜鸟html教程</a></li>
-    </ul>
-
-    <hr>
-
-    <h2>图片</h2>
-    
-    <img src="微信图片_20241209212827.jpg" alt="风景" width="300">
-    <div>
-        <p>里面是块级标签</p>
-        <h1>我不会停留于此，继续加油！</h1>
-    </div>
-    <span>这是行级，不换行</span>
 </body>
 </html>
