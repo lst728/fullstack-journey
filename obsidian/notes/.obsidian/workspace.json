@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "css/css入门.md",
+                "file": "javaScript/JS 地基学习.md",
                 "mode": "source",
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "css入门"
+              "title": "JS 地基学习"
+            }
+          },
+          {
+            "id": "1b4ff0b42a0127d7",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": "obsidian/notes/FSE/学习建议.md",
+                "bFile": "obsidian/notes/FSE/学习建议.md",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: 学习建议  (Working Tree)"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -99,7 +114,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "欢迎.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "欢迎.md",
+                "file": "HTML/HTML入门知识.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -161,7 +175,6 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "欢迎.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -169,16 +182,27 @@
               "icon": "lucide-list",
               "title": "大纲"
             }
+          },
+          {
+            "id": "020044720c6d9816",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -188,17 +212,24 @@
       "bases:新建数据库": false
     }
   },
-  "active": "edf3c230dccdbcc5",
+  "active": "1b4ff0b42a0127d7",
   "lastOpenFiles": [
-    "javaScript",
-    "css/css入门.md",
-    "未命名.md",
+    "HTML/HTML入门知识.md",
+    "2026-10-26.md",
+    "FSE/学习进行时.md",
+    "FSE/学习建议.md",
+    "javaScript/JS基础(补).md",
+    "javaScript/JS 地基学习.md",
+    "javaScript/JS 代码检查清单.md",
+    "FSE/学习建议 1.md",
+    "FSE/full-stuck.md",
+    "未命名.canvas",
     "HTML/语法改正.md",
+    "css/css入门.md",
+    "javaScript",
     "HTML/常用标签.md",
     "css",
-    "HTML/HTML入门知识.md",
     "FSE/git知识.md",
-    "FSE/full-stuck.md",
     "HTML",
     "FSE/Linux学习.md",
     "欢迎.md"
